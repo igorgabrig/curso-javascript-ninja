@@ -23,7 +23,7 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
 Onde VALOR é o novo valor da variável.
 */
 function add(){
-... return 'O valor da variavel agora é' + novo;;
+... return 'O valor da variavel agora é' + novo;
 ... }
 
 // Invoque a função criada acima.
