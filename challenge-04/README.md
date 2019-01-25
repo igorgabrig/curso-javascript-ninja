@@ -22,7 +22,16 @@ isTruthy('');
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
- 
+isTruthy(10);
+isTruthy('valor');
+isTruthy('A');
+isTruthy(2+3);
+isTruthy('s');
+isTruthy(10);
+isTruthy(11);
+isTruthy(12);
+isTruthy(13);
+isTruthy(22);
 
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
