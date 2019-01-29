@@ -115,7 +115,7 @@ carro.addPessoa = function(numPes){
 		if(numPes <= carro.assentos - carro.quantidadePessoas){  
 			carro.quantidadePessoas += numPes;
 			return "Já temos " + carro.quantidadePessoas + " pessoas no carro";
-        }else if(numPes >=  carro.assentos - carro.quantidadePessoas){
+        }else if(numPes >  carro.assentos - carro.quantidadePessoas){
 			var pessoa = "pessoas";
 			if(numPes == 1){
 				pessoa = "pessoa";
